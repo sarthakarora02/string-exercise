@@ -3,9 +3,9 @@
 # objective
 Create an application that will prompt user for input string and find the the first letter that is not repeated. Once the first character is found and displayed, rewrite string in order of number of occurrences and order from inputted string. 
 
-* input = 'Bubble'
-* output = u
-         uleBbb
+input = 'Bubble'. 
+output = u  
+         uleBbb  
 
 # how to run
 * python src/main.py

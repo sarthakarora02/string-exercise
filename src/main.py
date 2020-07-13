@@ -19,12 +19,10 @@ def fun(s):
     ans = ""
     for key in temp:
         for l in temp[key]:
-            # the letter is the
+            # the letter is the first element of the tuples in dictionary's value
             ans = ans + l[0]
 
     return ans
-
-
 
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ Create an application that will prompt user for input string and find the the fi
 
 input = 'Bubble'  
 output = u  
-         uleBbb  
+               uleBbb  
 
 # how to run
 * python src/main.py

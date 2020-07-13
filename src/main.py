@@ -1,17 +1,5 @@
 
-
-
-
-
-if __name__ == "__main__":
-    # s = "Bubble"
-    # taking input from user
-    s = input("Enter input string : ")
-
-    if len(s) == 0 or len(s) == 1:
-        print(s)
-        exit(0)
-
+def fun(s):
     # maintaining a dictionary for letter counts and order
     # key = lower case letter
     # value = list of tuples. tuple = (letter, index)
@@ -33,6 +21,22 @@ if __name__ == "__main__":
         for l in temp[key]:
             # the letter is the
             ans = ans + l[0]
+
+    return ans
+
+
+
+
+if __name__ == "__main__":
+    # s = "Bubble"
+    # taking input from user
+    s = input("Enter input string : ")
+
+    if len(s) == 0 or len(s) == 1:
+        print(s)
+        exit(0)
+
+    ans = fun(s)
 
     # First character in input string with one occurrence
     print(ans[0])
